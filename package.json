@@ -1,0 +1,31 @@
+{
+  "name": "luca-node",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API node-express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablo-nader/luca-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablo-nader/luca-node/issues"
+  },
+  "homepage": "https://github.com/pablo-nader/luca-node#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "mongoose": "^8.15.1",
+    "mongoose-paginate-v2": "^1.9.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  }
+}

@@ -16,6 +16,10 @@ router.use(async (req, res, next) => {
     next();
 });
 
+router.get('/', (req, res) => {
+  res.redirect('/products');
+});
+
 router.get('/products', async (req, res) => {
     const { limit, page, sort, query } = req.query;
     const result = await productManager.getAll({ limit, page, sort, query });
